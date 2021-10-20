@@ -88,4 +88,4 @@ CREATE TABLE ExamQuestion
 ExemID        INT PRIMARY KEY AUTO_INCREMENT,
 QuestionID	  INT
 );
-SELECT * FROM accounts;
+SELECT * FROM Exam;
