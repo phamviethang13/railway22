@@ -7,7 +7,6 @@ ON c.customer_id = co.customer_id
 ORDER BY co.amounts;
 
 -- Viết hàm (không có parameter) trả về tên hãng sản xuất đã bán được nhiều oto nhất trong năm nay.
-DROP FUNCTION IF EXISTS ban_hang()
 DELIMITER //
 CREATE FUNCTION best_seller () RETURNS CHAR(10) DETERMINISTIC
 BEGIN
